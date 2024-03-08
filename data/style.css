@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sneak {
+    display: flex;
+    list-style: none;
+    padding-left: 2vw;
+}
+.sneaker {
+    font-size: 2vw;
+    font-family: Jost;
+}
+.cntr {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    position: relative;
+    bottom: 4vh;
+}
+.center {
+    padding-right: 1vw;
+    font-size: 1vw;
+    font-family: Jost;
+}
+.iconss {
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    padding-right: 1vw;
+    position: relative;
+    bottom: 6vh;
+}
+.icon {
+    padding-right: 1vw;
+    font-size: 1vw;
+}
+li:hover {
+    cursor: pointer;
+}
+.snk {
+    font-family: Jost;
+    margin-top: 20vh;
+    position: relative;
+    top: 5vh;
+}
+.hh1 {
+    font-family: Sofia Sans Semi Condensed;
+    font-size: 3vw;
+}
+.snk,.hh1 {
+    margin-left: 10vw;
+}
+button {
+    background: none;
+    border: solid 1px 
+    #111111;
+    font-family: Jost;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    margin-left: 13vw;
+    font-size: 0.8vw;
+    position: fixed;
+    bottom: 36vh;
+}
+button:hover {
+    cursor: pointer;
+}
+#bibi {
+    position: relative;
+    top: 10vh;
+    font-size: 2vw;
+}
+.shoe {
+    position:fixed;
+    bottom: 20vh;
+    left: 40vw;
+    z-index: 3;
+}
+#right {
+    position: relative;
+    left: 97vw;
+    bottom: 70vh;
+    font-size: 2vw;
+}
+#right:hover,#bibi:hover {
+    cursor: pointer;
+}
+.behind {
+    opacity: 10%;
+    font-family: Sofia Sans Semi Condensed;
+    font-size: 10vw;
+    position: fixed;
+    left: 40vw;
+    bottom: 38vh;
+}
