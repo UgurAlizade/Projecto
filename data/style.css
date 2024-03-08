@@ -64,7 +64,7 @@ button {
     margin-left: 13vw;
     font-size: 0.8vw;
     position: fixed;
-    bottom: 36vh;
+    bottom: 32vh;
 }
 button:hover {
     cursor: pointer;
